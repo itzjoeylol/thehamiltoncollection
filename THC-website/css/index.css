@@ -1,0 +1,172 @@
+html {
+    font-family: 'Crimson Text', serif;
+    
+}
+
+body {
+    background-image: url("../images/audir8-2.png");
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+
+}
+
+hr {
+    border-color: rgba(0,0,0,0);
+}
+
+#logo {
+    position: absolute;
+    width: 12%;
+    padding: 4% 5%;
+}
+
+#header {
+    width: 100%;
+}
+
+#header-links {
+    text-align: center;
+}
+
+.link {
+    padding: 2.5% 6%;
+    font-size: 1.8vw;
+}
+
+
+
+
+
+
+
+
+
+#body-1 {
+    width: 100%;
+    background-image: url("../images/background-1.jpg");
+    margin: 43% 0 0 0;
+    text-align: center;
+    background-size: cover;
+}
+
+#body-1 h1 {
+    font-size: 3vw;
+    padding-top: 2%;
+}
+
+#collection-info {
+    font-size: 2.5vw;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+
+#view-collection-button {
+    background: rgba(105, 182, 255, 0.9);
+    width: 20%;
+    padding: 1%;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+
+#photo-library img {
+    width: 31.5%;
+    padding-left: 0.9%;
+}
+
+
+
+
+#social-media h2 {
+    text-align: center;
+    font-size: 2.2vw;
+    margin-bottom: 3%;
+}
+
+.social-container {
+    width: 31%;
+    float: left;
+    margin: 0 0 2% 2%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+#social-media a {
+    color: black;
+}
+
+.social-container img {
+    width: 40%;
+    padding: 0 30%;
+}
+
+.social-container a {
+    margin-top: 2%;
+}
+
+
+
+
+
+
+footer {
+    background: rgba(152, 234, 255, .6);
+    text-align: center;
+}
+
+footer div {
+    padding: 1%;
+    font-size: 1.3vw;
+}
+
+footer a {
+    color: grey;
+    text-decoration: underline;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .link {
+        padding: 4% 4%;
+        font-size: 2.8vw;
+    }
+
+    #header-links {
+        text-align: center;
+        padding-top: 1%;
+    }
+
+    #logo {
+        width: 8%;
+        padding: 0 5%;
+    }
+
+    #body-1 {
+        width: 100%;
+        background-color: rgba(90, 90, 90, 30);
+        margin: 37% 0 0 0;
+    }
+
+    footer div{
+        font-size: 3vw;
+    }
+}
